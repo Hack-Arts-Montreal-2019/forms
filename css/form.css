@@ -1,0 +1,43 @@
+.dropdown,
+.row-md-3.form-group {
+  margin: 20px 0 0 15px;
+}
+
+.js-datetimepicker {
+  margin-top: 20px;
+}
+
+.dropdown-toggle,
+#inputCity,
+#datetimepicker {
+  width: 290px;
+  height: 35px;
+}
+
+.dropdown-menu::placeholder,
+#inputCity::placeholder,
+#datetimepicker::placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+img {
+  width: 35px;
+}
+
+/*Date/Time datetimepicker*/
+
+.custom-icon-up,
+.custom-icon-down {
+  margin: 50px auto;
+  display: block;
+  float: none;
+}
+
+.custom-icon-up:after {
+  content: url('data:image/svg+xml,<svg viewBox="0 0 256 256" width="50" height="50" xmlns="http://www.w3.org/2000/svg"><path d="M217.6 179.2c-1.637 0-3.274-.625-4.524-1.875L128 92.25l-85.075 85.075c-2.5 2.5-6.55 2.5-9.05 0s-2.5-6.55 0-9.05l89.6-89.6c2.5-2.5 6.55-2.5 9.05 0l89.6 89.6c2.5 2.5 2.5 6.55 0 9.05-1.25 1.25-2.888 1.875-4.525 1.875z" fill="black"/></svg>');
+}
+
+.custom-icon-down:after {
+  content: url('data:image/svg+xml,<svg height="50" viewBox="0 0 256 256" width="50" xmlns="http://www.w3.org/2000/svg"><path d="M38.4 76.8c1.636 0 3.273.625 4.523 1.875l85.075 85.076 85.075-85.075c2.5-2.5 6.55-2.5 9.05 0s2.5 6.55 0 9.05l-89.6 89.6c-2.5 2.5-6.55 2.5-9.05 0l-89.6-89.6c-2.5-2.5-2.5-6.55 0-9.05 1.25-1.25 2.89-1.875 4.526-1.875z"/></svg>');
+}
